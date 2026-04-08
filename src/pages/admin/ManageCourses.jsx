@@ -130,7 +130,7 @@ const deleteBtn = {
   padding: "6px 12px",
   background: "#f44336",
   color: "#fff",
-  border: "none",
+
   borderRadius: "6px",
   cursor: "pointer"
 };
