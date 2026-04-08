@@ -58,7 +58,7 @@ export default function StudentProgress() {
               <defs>
                 <linearGradient id="gradient">
                   <stop offset="0%" stopColor="#6366f1" />
-                  <stop offset="100%" stopColor="#d946ef" />
+                  
                 </linearGradient>
               </defs>
             </svg>
