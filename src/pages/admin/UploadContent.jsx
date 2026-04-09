@@ -19,7 +19,7 @@ function getFileType(file) {
 
 function getFileIcon(type) {
   switch (type) {
-    
+     case 'video': return <HiOutlineFilm className="w-5 h-5" />;
     case 'image': return <HiOutlinePhotograph className="w-5 h-5" />;
     default: return <HiOutlineDocumentText className="w-5 h-5" />;
   }
