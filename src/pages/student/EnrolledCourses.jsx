@@ -14,7 +14,7 @@ export default function EnrolledCourses() {
   const { user } = useAuth();
   const [search, setSearch] = useState('');
   const [filter, setFilter] = useState('');
-  
+  const [selectedBatch, setSelectedBatch] = useState('All');
 
   // Find logged-in student and their enrolled courses
   const currentStudent = studentsList.find((s) => s.email === user?.email);
